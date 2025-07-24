@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
           <div className="mt-10">
             <a
               href="https://app.hirecatalyze.com/signup"
-              className="bg-accent text-white px-8 py-4 rounded-lg font-bold text-lg hover:opacity-90 transition-all shadow-lg shadow-glow-accent transform hover:scale-105"
+              className="bg-accent text-white px-8 py-4 rounded-lg font-bold text-lg hover:opacity-90 transition-all transform hover:scale-105"
             >
               Get Started Free Today
             </a>
@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
           <div className="bg-primary-light/50 p-2 rounded-xl border border-gray-700 backdrop-blur-sm shadow-2xl shadow-secondary/20">
              <video
                 className="w-full rounded-lg"
-                src="https://videos.pexels.com/video-files/3209828/3209828-hd_1280_720_25fps.mp4"
+                src="https://res.cloudinary.com/dm2wxjddh/video/upload/v1753354148/hirecatalyze-demo_jndnnx.mp4"
                 autoPlay
                 muted
                 loop

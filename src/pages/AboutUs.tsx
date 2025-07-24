@@ -6,23 +6,11 @@ import { Linkedin, Twitter } from 'lucide-react';
 
 const teamMembers = [
   {
-    name: 'Alex Johnson',
+    name: 'Ankit Narang',
     role: 'Founder & CEO',
-    imageUrl: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x400/161B22/8B949E?text=AJ',
+    imageUrl: 'https://res.cloudinary.com/dm2wxjddh/image/upload/v1753348884/ankit_pic_kbklai.jpg',
     bio: 'Visionary leader with a passion for leveraging AI to solve complex HR challenges and build happier, more efficient workplaces.',
-  },
-  {
-    name: 'Samantha Carter',
-    role: 'Chief Technology Officer',
-    imageUrl: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x400/161B22/8B949E?text=SC',
-    bio: 'Expert architect of scalable AI systems, ensuring HireCatalyze is always at the forefront of technological innovation.',
-  },
-  {
-    name: 'Ben Reynolds',
-    role: 'Head of Product',
-    imageUrl: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x400/161B22/8B949E?text=BR',
-    bio: 'Dedicated to creating an intuitive and powerful user experience that delights recruiters and candidates alike.',
-  },
+  }
 ];
 
 const AboutUs: React.FC = () => {
@@ -104,8 +92,8 @@ const AboutUs: React.FC = () => {
                   <p className="text-secondary font-semibold mb-4">{member.role}</p>
                   <p className="text-light-gray mb-6">{member.bio}</p>
                   <div className="flex justify-center space-x-4">
-                    <a href="#" className="text-light-gray hover:text-white"><Twitter size={24} /></a>
-                    <a href="#" className="text-light-gray hover:text-white"><Linkedin size={24} /></a>
+                    <a href="https://x.com/Ankit_narang_07" className="text-light-gray hover:text-white"><Twitter size={24} /></a>
+                    <a href="https://www.linkedin.com/in/ankitnarang1/" className="text-light-gray hover:text-white"><Linkedin size={24} /></a>
                   </div>
                 </motion.div>
               ))}
